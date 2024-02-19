@@ -1,0 +1,23 @@
+/**
+  * Project code styling
+  */
+
+* { margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code';
+    font-size: 70px }
+
+body { height: 100vh;
+       background: linear-gradient(120deg, #5e5a5a, #24292E);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: background 0.2s linear }
+
+.codeClockGeneral { color: #E1E4E8 }
+
+.marginClock { margin-left: 100px }
+
+.variableColor { color: #79B8FF }
